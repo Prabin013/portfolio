@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
+  title: "Portfolio",
   description: "This is my portfolio",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#30014] overflow-y-scroll overflow-hidden`}
+      <body className={`${inter.className} bg-[#30014] overflow-y-scroll overflow-x-hidden`}
       >{children}
       </body>
     </html>
