@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export const Skill_data = [
     {
@@ -76,8 +75,9 @@ export const Skill_data = [
       href:"https://www.linkedin.com/in/prabin-adhikari-23a27b231/",
     },
     {
-      name: "Discord",
-      src: "/discord.svg",
+      name: "Github Education",
+      src: "/gitStudent.png",
+      href:"https://github.com/padhikari2",
     },
   ];
   
@@ -108,26 +108,20 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    // {
-    //   skill_name: "Material UI",
-    //   Image: "/mui.png",
-    //   width: 80,
-    //   height: 80,
-    // },
     {
+      skill_name: "SASS",
+      Image: "/sass.png",
+      width: 80,
+      height: 80,
+    },
+     {
       skill_name: "React",
       Image: "/react.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Type Script",
-      Image: "/ts.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Next js 13",
+      skill_name: "Next js",
       Image: "/next.png",
       width: 80,
       height: 80,
@@ -136,14 +130,14 @@ export const Skill_data = [
   
   export const Backend_skill = [
     {
-      skill_name: "Node js",
-      Image: "/node-js.png",
+      skill_name: "Asp.net",
+      Image: "/asp.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "PHP",
-      Image: "/php.png",
+      skill_name: "Laravel",
+      Image: "/laravel.png",
       width: 80,
       height: 80,
     },
@@ -159,20 +153,33 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
+  
   ];
   
   export const Full_stack = [ 
     {
-      skill_name: "Docker",
-      Image: "/docker.webp",
-      width: 70,
-      height: 70,
+      skill_name: "Node js",
+      Image: "/node-js.png",
+      width: 80,
+      height: 80,
     },
     {
-      skill_name:"CSharp",
-      Image: "/csharp.png",
-      width: 70,
-      height: 70,
+      skill_name: "JQuery",
+      Image: "/jquery.png",
+      width: 80,
+      height: 80,
+    },
+     {
+      skill_name: "React",
+      Image: "/react.png",
+      width: 80,
+      height: 80,
+    },
+     {
+      skill_name: "Type Script",
+      Image: "/ts.png",
+      width: 80,
+      height: 80,
     },
   ];
   
@@ -183,6 +190,18 @@ export const Skill_data = [
       skill_name: "Flutter",
       Image: "/flutter.png",
       width: 60,
-      height: 60,
+      height: 80,
+    },
+     {
+      skill_name: "Docker",
+      Image: "/docker.webp",
+      width: 80,
+      height: 80,
+    },
+     {
+      skill_name: "GitHub",
+      Image: "/gitwhite.png",
+      width: 80,
+      height: 80,
     },
   ];
