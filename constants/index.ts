@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Skill_data = [
     {
       skill_name: "Html 5",
@@ -64,15 +66,17 @@ export const Skill_data = [
   
   export const Socials = [
     {
+      name: "GitHub",
+      src: "/gitwhite.png",
+      href:"https://github.com/Prabin013",
+    },
+    {
+      name: "LinkedIn",
+      src: "/linkedin.png",
+      href:"https://www.linkedin.com/in/prabin-adhikari-23a27b231/",
+    },
+    {
       name: "Discord",
-      src: "/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      name: "Instagram",
       src: "/discord.svg",
     },
   ];
