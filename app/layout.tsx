@@ -19,12 +19,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
-      >
-        <StarsCanvas />
-        <Navbar />
-        {children}
-        <Footer />
+      <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
+        {/* Starry Background */}
+        <div className="fixed inset-0 z-[-1]">
+          <StarsCanvas />
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
