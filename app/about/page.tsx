@@ -101,7 +101,7 @@ export default function AboutPage() {
             variants={slideInFromLeft(1)}
             className="text-lg text-gray-400"
           >
-            Beyond coding, I&apos;m deeply passionate about <strong>sports and fitness</strong>. I love <strong>basketball, soccer, and UFC</strong>**, always keeping up with the latest matches and fights. Whether it&apos;s shooting hoops, playing a competitive soccer match, or analyzing UFC bouts, sports keep me energized and motivated.
+            Beyond coding, I&apos;m deeply passionate about <strong>sports and fitness</strong>. I love <strong>basketball, soccer, and UFC</strong>, always keeping up with the latest matches and fights. Whether it&apos;s shooting hoops, playing a competitive soccer match, or analyzing UFC bouts, sports keep me energized and motivated.
           </motion.p>
 
           <motion.p
