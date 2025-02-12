@@ -5,9 +5,11 @@ import { motion } from "framer-motion"
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/16/solid'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 
 
 const HeroContent = () => {
+  const router = useRouter();
   return (
     <motion.div
       initial="hidden"
@@ -43,7 +45,7 @@ const HeroContent = () => {
 
         <motion.a
           variants={slideInFromLeft(1)}
-          href='/about'
+          onClick={() => router.push("/about")}
           className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
         >
           Learn More!
