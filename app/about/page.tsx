@@ -43,7 +43,7 @@ export default function AboutPage() {
             variants={slideInFromLeft(0.8)}
             className="text-lg text-gray-400"
           >
-            With a strong background in <strong>Full Stack Development</strong>, I specialize in <strong>building web and mobile applications</strong> using modern technologies. From crafting <strong>responsive UIs</strong> to designing <strong>scalable backends</strong>, I bring ideas to life with <strong>clean, efficient, and maintainable code</strong>.
+            With a strong background in <strong>Full Stack Development</strong>, I specialize in <strong>building web and mobile applications</strong> using modern technologies. From crafting <strong>responsive UIs</strong> to designing <strong>scalable backends</strong>, I bring ideas to life with <strong>clean, efficient, and maintainable code</strong>. I graduated from <strong>NAIT's Digital Media and Information Technology (DMIT) program</strong>, where I honed my skills in software development, working on diverse projects that showcase my expertise.
           </motion.p>
 
           <motion.p
